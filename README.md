@@ -1,5 +1,5 @@
 # knockd-utils
-Simple scripts for generating one time sequences for knockd and for knocking a host with either netcat or nmap. Sequences are made of three to four unprivileged ports number (1024-65535).
+Simple scripts for generating one time sequences for [knockd](https://zeroflux.org/projects/knock) and for knocking a host with either netcat or nmap. Sequences are made of three to four unprivileged ports number (1024-65535).
 
 Examples:
 * generating sequences
