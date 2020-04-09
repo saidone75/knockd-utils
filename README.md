@@ -4,7 +4,7 @@ Simple scripts for generating one time sequences for knockd and for knocking a h
 Examples:
 * generating sequences
 ```
-$ ./knockd_otp.sh -n 10
+$ knockd_otp.sh -n 10
  17620,10384,22548
  8039,11811,4352
  2540,13981,16799
