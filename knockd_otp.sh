@@ -49,8 +49,6 @@ then
     usage
 fi
 
-#info "$(basename $0) started"
-
 for (( r=1; r<=$rows; r++ ))
 do
     echo -ne " "
@@ -60,5 +58,3 @@ do
     done
     echo $(random_port)
 done
-
-#info "$(basename $0) done!"
