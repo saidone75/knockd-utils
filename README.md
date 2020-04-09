@@ -1,6 +1,8 @@
 # knockd-utils
 Simple scripts for generating one time sequences for knockd and for knocking a host with either netcat or nmap. Sequences are made of three to four unprivileged ports number (1024-65535).
+
 Examples:
+* generating sequences
 ```
 $ ./knockd_otp.sh -n 10
  17620,10384,22548
@@ -14,7 +16,7 @@ $ ./knockd_otp.sh -n 10
  28825,5720,21644,10606
  6621,27957,21833
  ```
- and:
+* knocking a host
  ```
  $ knock.sh -h 192.168.33.10 -s 17620,10384,22548
 knock.sh started
