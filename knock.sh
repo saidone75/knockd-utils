@@ -2,9 +2,6 @@
 
 IFS=$'\n'
 
-DEBUG=1
-COLOUR=1
-
 NMAP=$(which nmap)
 NC=$(which nc)
 
