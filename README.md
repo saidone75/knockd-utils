@@ -22,3 +22,8 @@ $ knockd_otp.sh -n 10
 knock.sh started
 knock.sh done!
 ```
+
+## License
+Copyright (c) 2020 Saidone
+
+Distributed under the MIT License
