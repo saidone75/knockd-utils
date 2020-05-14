@@ -3,7 +3,7 @@ Simple scripts for generating one time sequences for [knockd](https://zeroflux.o
 
 Examples:
 * generating sequences
-```
+```console
 $ knockd_otp.sh -n 10
  17620,10384,22548
  8039,11811,4352
@@ -17,7 +17,7 @@ $ knockd_otp.sh -n 10
  6621,27957,21833
  ```
 * knocking a host
- ```
+ ```console
  $ knock.sh -h 192.168.33.10 -s 17620,10384,22548
 knock.sh started
 knock.sh done!
